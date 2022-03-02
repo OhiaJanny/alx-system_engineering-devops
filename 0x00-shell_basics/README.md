@@ -24,4 +24,4 @@ Use `ls al . .. /boot` to list out all files beginning with period characters wh
 
 Use `file /tmp/iamafile` to print the type of file named iamafile
 
-Use `ln -s /bin/ls _ls_` to create symbolic link /bin/ls , name _ls_
+Use `ln -s /bin/ls __ls__` to create symbolic link /bin/ls , name __ls__
