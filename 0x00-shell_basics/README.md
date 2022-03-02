@@ -17,3 +17,5 @@ Use `mv /tmp/betty /tmp/my_first_diirectory/betty` move the file betty from /tmp
 Use `rm /tmp/my_first_directory/betty
 
 Use `rm -r /tmp/my_first_directory` removing the subdirectory inside the tmp directory
+
+Use `cd -` to change the working to the previous one
