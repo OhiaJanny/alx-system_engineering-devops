@@ -15,3 +15,5 @@ Use `mkdir /tmp/my_first_directory` create a script that create a directory name
 Use `mv /tmp/betty /tmp/my_first_diirectory/betty` move the file betty from /tmp/ to /tmp/my_first_directory
 
 Use `rm /tmp/my_first_directory/betty
+
+Use `rm -r /tmp/my_first_directory` removing the subdirectory inside the tmp directory
