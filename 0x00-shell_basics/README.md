@@ -19,3 +19,5 @@ Use `rm /tmp/my_first_directory/betty
 Use `rm -r /tmp/my_first_directory` removing the subdirectory inside the tmp directory
 
 Use `cd -` to change the working to the previous one
+
+Use `ls al . .. /boot` to list out all files beginning with period characters which are normally hidden
