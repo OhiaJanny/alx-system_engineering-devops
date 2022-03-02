@@ -23,3 +23,5 @@ Use `cd -` to change the working to the previous one
 Use `ls al . .. /boot` to list out all files beginning with period characters which are normally hidden
 
 Use `file /tmp/iamafile` to print the type of file named iamafile
+
+Use `ln -s /bin/ls _ls_` to create symbolic link /bin/ls , name _ls_
