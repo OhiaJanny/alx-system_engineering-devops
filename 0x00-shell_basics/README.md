@@ -5,3 +5,5 @@ Use `ls` display content list of your current directory
 Use `cd /root` change the working directory to the users home directory
 
 Use `ls -l` display current directory contents in a long format
+
+Use `ls -la ..` display current directory contents, including hidden files (starting with .). Use the long format
