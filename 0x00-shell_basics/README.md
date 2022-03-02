@@ -35,3 +35,5 @@ Use `rm *~` to delete all files in the current working directory that ends with 
 Use `mkdir -p welcome/to/school` to create directories welcome/to/school in the user current working directory
 
 Use `ls -pamv` to list all the files and directories of the current directory seperated by commas (,).
+
+Use `0 string SCHOOL School data !:mime School` to detect the School data file which contain the string SCHOOL offset 0
