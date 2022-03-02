@@ -29,3 +29,5 @@ Use `ln -s /bin/ls __ls__` to create symbolic link /bin/ls , name __ls_
 Use  `cp -nu *.html ..` to copy html file from the current working directory to the parent working directory
 
 Use `mv [[:upper:]]* /tmp/u` to move all files begining with uppercase letter
+
+Use `rm *~` to delete all files in the current working directory that ends with the character ~
