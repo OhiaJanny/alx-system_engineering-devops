@@ -21,3 +21,5 @@ Use `rm -r /tmp/my_first_directory` removing the subdirectory inside the tmp dir
 Use `cd -` to change the working to the previous one
 
 Use `ls al . .. /boot` to list out all files beginning with period characters which are normally hidden
+
+Use `file /tmp/iamafile` to print the type of file named iamafile
