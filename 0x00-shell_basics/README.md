@@ -9,3 +9,5 @@ Use `ls -l` display current directory contents in a long format
 Use `ls -la` display current directory contents, including hidden files (starting with .). Use the long format
 
 Use `ls -lna` display current directory contents, long format, user and group IDs displayed numerically, and hidden files (starting with .)
+
+Use `mkdir /tmp/my_first_directory` create a script that create a directory name my_first_directory in the /tmp/ directory
