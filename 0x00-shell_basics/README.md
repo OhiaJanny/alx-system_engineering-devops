@@ -11,3 +11,5 @@ Use `ls -la` display current directory contents, including hidden files (startin
 Use `ls -lna` display current directory contents, long format, user and group IDs displayed numerically, and hidden files (starting with .)
 
 Use `mkdir /tmp/my_first_directory` create a script that create a directory name my_first_directory in the /tmp/ directory
+
+Use `mv /tmp/betty /tmp/my_first_diirectory/betty` move the file betty from /tmp/ to /tmp/my_first_directory
