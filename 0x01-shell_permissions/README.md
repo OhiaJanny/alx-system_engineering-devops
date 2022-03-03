@@ -23,3 +23,5 @@ Use `chmod --reference=olleh hello` sets the mode of the file hello the same as 
 Use `chmod -R a+X .` to adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
 
 Use `mkdir -m 751 dir_holberton` to creates a directory called my_dir with permissions 751 in the working directory
+
+Use `chgrp school hello` script that changes group owner to school for the file hello
