@@ -13,3 +13,5 @@ Use `chmod u+x hello` to adds execute permission to the owner of the file hello
 Use `chmod ug+x,o+r hello` to adds execute permission to the owner and group owner, and read permission to other users, to the file hello
 
 Use `chmod a+x hello` to adds execution permission to the owner, the group owner and the other users, to the file hello
+
+Use `chmod 007 hello` to sets the permission to the file hello as Owner, Group and Other users.
