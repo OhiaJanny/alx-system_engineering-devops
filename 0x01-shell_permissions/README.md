@@ -29,3 +29,5 @@ Use `chgrp school hello` script that changes group owner to school for the file 
 Use `chown vicent:staff *` to write a script that changes the owner to vicent and the group owner staff for all the files and directories in the working directory
 
 Use `chmod -h vincent:staff -hello` write a script that changes the owner and group owner of -hello to vicent and staff
+
+Use `chown --from=guillaume betty hello` to write script that changes the owner of the file hello to betty only if it is owned by the user guillaume
