@@ -25,3 +25,5 @@ Use `chmod a+X *` to adds execute permission to all subdirectories of the curren
 Use `mkdir -m 751 my_dir` to creates a directory called my_dir with permissions 751 in the working directory
 
 Use `chgrp school hello` script that changes group owner to school for the file hello
+
+Use `chown vicent:staff *` to write a script that changes the owner to vicent and the group owner staff for all the files and directories in the working directory
