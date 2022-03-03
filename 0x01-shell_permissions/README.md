@@ -26,7 +26,7 @@ Use `mkdir -m 751 my_dir` to creates a directory called my_dir with permissions 
 
 Use `chgrp school hello` script that changes group owner to school for the file hello
 
-Use `chown vicent:staff *` to write a script that changes the owner to vicent and the group owner staff for all the files and directories in the working directory
+Use `chown vincent:staff *` to write a script that changes the owner to vicent and the group owner staff for all the files and directories in the working directory
 
 Use `chmod -h vincent:staff -hello` write a script that changes the owner and group owner of -hello to vicent and staff
 
