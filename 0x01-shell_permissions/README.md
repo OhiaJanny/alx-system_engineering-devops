@@ -17,3 +17,5 @@ Use `chmod a+x hello` to adds execution permission to the owner, the group owner
 Use `chmod 007 hello` to sets the permission to the file hello as Owner, Group and Other users.
 
 Use `chmod 753 hello` to sets the mode of the file hello 
+
+Use `chmod --reference=olleh hello` sets the mode of the file hello the same as olleh's mode
