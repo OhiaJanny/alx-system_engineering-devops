@@ -31,3 +31,5 @@ Use `chown vincent:staff *` to write a script that changes the owner to vicent a
 Use `chmod -h vincent:staff -hello` write a script that changes the owner and group owner of -hello to vicent and staff
 
 Use `chown --from=guillaume betty hello` to write script that changes the owner of the file hello to betty only if it is owned by the user guillaume
+
+Use `telnet blinkenlights.nl` to write a script that play the star war iv episode in terminal
