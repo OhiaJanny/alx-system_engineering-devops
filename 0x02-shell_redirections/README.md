@@ -21,6 +21,8 @@ Use `find -name "*.js" -type f -delete` to write a script that deleted all the r
 
 Use `find . -type d ! -path . -print | wc -l` to write a script that counts the number of directories and sub-directories in the current directory
 
+Use `ls -1t | head -10` to create a script that displays the 10 newest files in the current directory
+
 
 
 
