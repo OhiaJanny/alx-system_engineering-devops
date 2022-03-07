@@ -31,6 +31,8 @@ Use `grep -c "bin" /etc/passwd` to display the number of lines that contain the 
 
 Use `grep -A 3 "root" /etc/passwd` to display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
 
+Use `grep ^[[:alpha:]] /etc/ssh/sshd_config` to display all lines of the file /etc/ssh/sshd_config starting with a letter
+
 
 
 
