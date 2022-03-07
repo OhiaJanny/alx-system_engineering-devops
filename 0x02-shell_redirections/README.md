@@ -39,6 +39,8 @@ Use `tr -d 'c' | tr -d 'C'` to create a script that removes all letters c and C 
 
 Use `rev` to write a script that reverse its input
 
+Use `sort /etc/passwd | cut -d':' -f1,6
+
 
 
 
