@@ -39,7 +39,7 @@ Use `tr -d 'c' | tr -d 'C'` to create a script that removes all letters c and C 
 
 Use `rev` to write a script that reverse its input
 
-Use `sort /etc/passwd | cut -d':' -f1,6
+Use `cut -d':' -f1'6 /etc/passwd | sort` to write a script that displays all users and their home directories, sorted by users
 
 
 
