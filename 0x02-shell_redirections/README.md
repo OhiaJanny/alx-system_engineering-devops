@@ -43,6 +43,8 @@ Use `cut -d':' -f1'6 /etc/passwd | sort` to write a script that displays all use
 
 Use `find . -path "*/*" -empty| rev | -d'/' -f1 | rev` to write a command that finds all empty files and directories in the current directory and all sub-directories
 
+Use `find . -path ".gif" -type f | rev | cut -d'/' -f1 | cut -d'.' -f2,3 | rev | sort -f` to write a script that lists all the files with a .gif extension in the current directoryand all its sun-directories
+
 
 
 
