@@ -14,6 +14,8 @@ Use `echo Best School > "\\*\\\\'\"Best School\"\\'\\\*\$\\?\\*\\*\\*\\*\\*:)"` 
 
 Use `ls -la > ls_cwd_content` to write a script that writes into the file ls_cwd_content the result of the command ls -la
 
+Use `tall -n 1 iacta >> iacta` to write the script that duplicates the last line of the file iacta
+
 
 
 
