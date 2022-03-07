@@ -41,6 +41,8 @@ Use `rev` to write a script that reverse its input
 
 Use `cut -d':' -f1'6 /etc/passwd | sort` to write a script that displays all users and their home directories, sorted by users
 
+Use `find . -path "*/*" -empty| rev | -d'/' -f1 | rev` to write a command that finds all empty files and directories in the current directory and all sub-directories
+
 
 
 
