@@ -33,6 +33,8 @@ Use `grep -A 3 "root" /etc/passwd` to display lines containing the pattern "root
 
 Use `grep ^[[:alpha:]] /etc/ssh/sshd_config` to display all lines of the file /etc/ssh/sshd_config starting with a letter
 
+Use `tr 'A' 'Z' | tr 'c' 'e'` to replace all characyers A and c from input to Z and e respectively
+
 
 
 
