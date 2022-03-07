@@ -35,6 +35,8 @@ Use `grep ^[[:alpha:]] /etc/ssh/sshd_config` to display all lines of the file /e
 
 Use `tr 'A' 'Z' | tr 'c' 'e'` to replace all characyers A and c from input to Z and e respectively
 
+Use `tr -d 'c' | tr -d 'C'` to create a script that removes all letters c and C from input
+
 
 
 
