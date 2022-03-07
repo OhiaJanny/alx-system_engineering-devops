@@ -37,6 +37,8 @@ Use `tr 'A' 'Z' | tr 'c' 'e'` to replace all characyers A and c from input to Z 
 
 Use `tr -d 'c' | tr -d 'C'` to create a script that removes all letters c and C from input
 
+Use `rev` to write a script that reverse its input
+
 
 
 
