@@ -25,6 +25,8 @@ Use `ls -1t | head -10` to create a script that displays the 10 newest files in 
 
 Use `sort | uniq -u` to create a script that takes a list of words as input and prints only words that appearexactly once
 
+Use `grep "root" /etc/passwd` to display lines containing the pattern "root" from the file /etc/passwd
+
 
 
 
