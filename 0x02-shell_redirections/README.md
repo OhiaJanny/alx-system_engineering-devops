@@ -23,6 +23,8 @@ Use `find . -type d ! -path . -print | wc -l` to write a script that counts the 
 
 Use `ls -1t | head -10` to create a script that displays the 10 newest files in the current directory
 
+Use `sort | uniq -u` to create a script that takes a list of words as input and prints only words that appearexactly once
+
 
 
 
