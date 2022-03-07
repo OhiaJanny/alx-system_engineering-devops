@@ -14,7 +14,7 @@ Use `echo "Best School" > "\\\\'\"Best School\"\'\\\$\?\\\\\*:)"` to  write a sh
 
 Use `ls -la > ls_cwd_content` to write a script that writes into the file ls_cwd_content the result of the command ls -la
 
-Use `tall -1 < iacta >> iacta` to write the script that duplicates the last line of the file iacta
+Use `tall -1 < iacta >> iacta \` to write the script that duplicates the last line of the file iacta
 
 Use `find -name "*.js" -type f -delete` to write a script that deleted all the regular files(not the directories) with a .js extention that are present in the current directory and all its subfolders
 
