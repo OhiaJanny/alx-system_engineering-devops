@@ -12,6 +12,8 @@ Use `head -n 3 iacta | tail -n 1` to write a script that displays the third line
 
 Use `echo Best School > "\\*\\\\'\"Best School\"\\'\\\*\$\\?\\*\\*\\*\\*\\*:)"` to  write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line
 
+Use `ls -la > ls_cwd_content` to write a script that writes into the file ls_cwd_content the result of the command ls -la
+
 
 
 
