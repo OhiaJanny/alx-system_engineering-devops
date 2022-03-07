@@ -10,7 +10,7 @@ Use `head /etc/passwd` to display the first 10 lines of /etc/passwd
 
 Use `head -n 3 iacta | tail -n 1` to write a script that displays the third line of a file iacta
 
-Use `echo Best School > "\\*\\\\'\"Best School\"\\'\\\*\$\\?\\*\\*\\*\\*\\*:)" to write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line
+Use `echo Best School > "\\*\\\\'\"Best School\"\\'\\\*\$\\?\\*\\*\\*\\*\\*:)"` to  write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line
 
 
 
