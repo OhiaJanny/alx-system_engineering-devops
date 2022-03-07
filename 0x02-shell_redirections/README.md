@@ -19,7 +19,7 @@ Use `tall -1 < iacta >> iacta` to write the script that duplicates the last line
 Use `find -name "*.js" -type f -delete` to write a script that deleted all the regular files(not the directories) with a .js extention that are present in the current directory and all its subfolders
 
 
-
+Use `find . -type d ! -path . -print | wc -l` to write a script that counts the number of directories and sub-directories in the current directory
 
 
 
