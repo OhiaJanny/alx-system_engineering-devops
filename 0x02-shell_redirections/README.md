@@ -7,3 +7,5 @@ Use `cat /etc/passwd /ect/hosts` to display the content of /etc/passwd and /etc/
 Use `tail /etc/passwd` to display the last 10 lines of /etc/passwd
 
 Use `head /etc/passwd` to display the first 10 lines of /etc/passwd
+
+Use `head -n 3 iacta | tail -n 1` to write a script that displays the third line of a file iacta
