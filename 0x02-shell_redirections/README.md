@@ -5,3 +5,5 @@ Use `cat /etc/passwd` to display the contect of the /etc/passwd file
 Use `cat /etc/passwd /ect/hosts` to display the content of /etc/passwd and /etc/hots
 
 Use `tail /etc/passwd` to display the last 10 lines of /etc/passwd
+
+Use `head /etc/passwd` to display the first 10 lines of /etc/passwd
