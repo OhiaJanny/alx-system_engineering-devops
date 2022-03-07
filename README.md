@@ -1,3 +1,1 @@
-getting started with shell
-
-Use `su betty` to create script that switches the current user to the user betty
+Use `echo "Hello, World"` to prints "Hello, World" , followed by a new line to the standard output.
