@@ -7,3 +7,5 @@ Use `PATH=$PATH:/action`
 Use `echo $PATH | tr ":" "\n" | wc -l
 
 Use `printenv`
+
+Use `set`
