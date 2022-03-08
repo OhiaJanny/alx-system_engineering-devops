@@ -15,3 +15,5 @@ Use `BEST=School`
 Use `export BEST=School`
 
 Use `echo $((TRUEKNOWLEDGE+128))`
+
+Use `echo $((POWER / DIVIDE))`
