@@ -19,3 +19,5 @@ Use `echo $((TRUEKNOWLEDGE+128))`
 Use `echo $((POWER / DIVIDE))`
 
 Use `echo $((BREATH**LOVE))`
+
+Use `echo "$((2#BINARY))"`
