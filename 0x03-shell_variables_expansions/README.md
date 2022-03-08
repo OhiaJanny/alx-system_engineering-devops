@@ -10,4 +10,4 @@ Use `printenv`
 
 Use `set`
 
-Use `BEST="school"`
+Use `BEST=school`
