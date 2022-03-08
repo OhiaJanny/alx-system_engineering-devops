@@ -25,3 +25,5 @@ Use `echo "$((2#BASE10))"`
 Use `echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"`
 
 Use `printf "%0.2f\n" $NUM`
+
+Use `echo "$((10#BINARY))16"`
