@@ -31,3 +31,5 @@ Use `printf '%x\n' $DECIMAL`
 Use `tr 'A-Za-z' 'N-ZA-Mn-za-m'`
 
 Use `paste - - | cut -d$'\t' -f1`
+
+Use `printf '%o\n' $(( $((5#$(echo $STIR | tr 'stir.' '01234'))) + $((5#$(echo $WATER | tr 'water' '01234'))) )) | tr '012334567' 'bestchol'
