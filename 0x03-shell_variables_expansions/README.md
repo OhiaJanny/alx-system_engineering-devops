@@ -20,4 +20,4 @@ Use `echo $((POWER / DIVIDE))`
 
 Use `echo $((BREATH**LOVE))`
 
-Use `echo "$((2#BINARY))"`
+Use `echo "$((2#BASE10))"`
