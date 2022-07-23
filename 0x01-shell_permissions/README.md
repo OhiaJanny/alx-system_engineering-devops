@@ -1,35 +1,27 @@
-Use `whoami` to write script that prints the effective username of the current user
+0-iam_betty-change current user
 
-Use `su betty` to create a script that switches the current user to the user betty
+1-who_am_i-prints user
 
-Use `group` to write a script that prints all groups the current user is part of
+2-groups-prints all groups user is part of
 
-Use `chown betty hello` to write a script that changes the owner of the file hello to the user betty
+3-new_owner-change file owner
 
-Use `touch hello` to write a script that creates an empty file called hello
+4-empty-create empty file
 
-Use `chmod u+x hello` to adds execute permission to the owner of the file hello
+5-execute-excecute permission to the owner of the file
 
-Use `chmod ug+x, o+r hello` to adds execute permission to the owner and group owner, and read permission to other users, to the file hello
+6-multiple_permissions-execute mutiple permissions
 
-Use `chmod a+x hello` to adds execution permission to the owner, the group owner and the other users, to the file hello
+7-everybody-excecution permision to everybody
 
-Use `chmod 007 hello` to sets the permission to the file hello as Owner, Group and Other users.
+8-james_bond-permissions only for users
 
-Use `chmod 753 hello` to sets the mode of the file hello 
+9-john_Doe-set mode of the file
 
-Use `chmod --reference=olleh hello` sets the mode of the file hello the same as olleh's mode
+10-mirror_permissions-mirror the permissions
 
-Use `chmod a+X *` to adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+11-directories_permissions-execute permissions to all subdirectories
 
-Use `mkdir -m 751 my_dir` to creates a directory called my_dir with permissions 751 in the working directory
+12-directory_permissions-permission 751
 
-Use `chgrp school hello` script that changes group owner to school for the file hello
-
-Use `chown vincent:staff *` to write a script that changes the owner to vicent and the group owner staff for all the files and directories in the working directory
-
-Use `chmod -h vincent:staff -hello` write a script that changes the owner and group owner of -hello to vicent and staff
-
-Use `chown --from=guillaume betty hello` to write script that changes the owner of the file hello to betty only if it is owned by the user guillaume
-
-Use `telnet blinkenlights.nl` to write a script that play the star war iv episode in terminal
+13-change_group-change group owner.

@@ -1,54 +1,45 @@
-e `echo "Hello, World"` towrite a script taht prints "Hello, World", followed by a new line to the standard output
+0-hello_world -prints hello world
 
-Use `cat /etc/passwd` to display the contect of the /etc/passwd file
+1-confused_smiley -prints confused smiley face
 
-Use `cat /etc/passwd /ect/hosts` to display the content of /etc/passwd and /etc/hots
+2-hellofile - displays contents of /etc/passwd file
 
-Use `tail /etc/passwd` to display the last 10 lines of /etc/passwd
+3-twofiles -display contents of two files
 
-Use `head /etc/passwd` to display the first 10 lines of /etc/passwd
+4-lastlines -display last 10 lines of /etc/passwd
 
-Use `head -n 3 iacta | tail -n 1` to write a script that displays the third line of a file iacta
+5-firstlines -display first 10 lines of /etc/passwd/
 
-Use `echo "Best School" > "\\\\'\"Best School\"\'\\\$\?\\\\\*:)"` to  write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line
+6-third_line -displays third line of the file iacta
 
-Use `ls -la > ls_cwd_content` to write a script that writes into the file ls_cwd_content the result of the command ls -la
+7-file -creating the file \*\\'"Holberton school"\'\\*$\?\*\*\*\*\*:)
 
-Use `tall -1 < iacta >> iacta \` to write the script that duplicates the last line of the file iacta
+8-cwd_state -write into file
 
-Use `find -name "*.js" -type f -delete` to write a script that deleted all the regular files(not the directories) with a .js extention that are present in the current directory and all its subfolders
+9-duplicate_last_line -duplicates the last line of iacta
 
+10-no_more_js -delete .js files
 
-Use `find . -type d ! -path . -print | wc -l` to write a script that counts the number of directories and sub-directories in the current directory
+11-directories -counts the no. of directories and sub-directories
 
-Use `ls -1t | head -10` to create a script that displays the 10 newest files in the current directory
+12-newest_files -prints the 10 newest files
 
-Use `sort | uniq -u` to create a script that takes a list of words as input and prints only words that appearexactly once
+13-unique -prints only words that appear once
 
-Use `grep "root" /etc/passwd` to display lines containing the pattern "root" from the file /etc/passwd
+14-findthatword -display lines containing the pattern root in /etc/passwd
 
-Use `grep -c "bin" /etc/passwd` to display the number of lines that contain the pattern "bin" in the file /etc/passwd
+15-countthatword -display the no of lines that contain the pattern bin in /etc/passwd
 
-Use `grep -A 3 "root" /etc/passwd` to display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
+16-whatsnext -display lines that contain the pattern root and three lines after them in the file /etc/passwd/
 
-Use `grep ^[[:alpha:]] /etc/ssh/sshd_config` to display all lines of the file /etc/ssh/sshd_config starting with a letter
+17-hidethisword -display all the lines in the file /etc/passwd that do not contain the pattern "bin"
 
-Use `tr 'A' 'Z' | tr 'c' 'e'` to replace all characyers A and c from input to Z and e respectively
+18-letteronly -display all lines of the file /etc/ssh/ssh_config starting with a letter
 
-Use `tr -d 'c' | tr -d 'C'` to create a script that removes all letters c and C from input
+19-AZ -replace all characters A and c from input to Z and e respectively
 
-Use `rev` to write a script that reverse its input
+20-hiago -removes all letters c and C from input
 
-Use `cut -d':' -f1'6 /etc/passwd | sort` to write a script that displays all users and their home directories, sorted by users
+21-reverse -reverse input
 
-Use `find . -path "*/*" -empty| rev | -d'/' -f1 | rev` to write a command that finds all empty files and directories in the current directory and all sub-directories
-
-Use `find . -path ".gif" -type f | rev | cut -d'/' -f1 | cut -d'.' -f2,3 | rev | sort -f` to write a script that lists all the files with a .gif extension in the current directoryand all its sun-directories
-
-
-
-
-
-
-
-
+22-DJ cut killer-displays all users and their home directories.

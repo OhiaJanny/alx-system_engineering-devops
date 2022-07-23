@@ -1,35 +1,28 @@
-Use `alias ls="rm *"` create a script that creates an alias
+0-alias -creates an alias
 
-Use `echo "hello $USER"`
+1-hello_you -prints `hello user`
 
-Use `PATH=$PATH:/action`
+2-path -add `/action` to the `PATH`.
 
-Use `echo $PATH | tr ":" "\n" | wc -l
+3-paths -counts the number of directories in the `PATH`
 
-Use `printenv`
+4-global_variables -lists environment variables
 
-Use `set`
+5-local_variables -lists all local variables and environment variables,and functions
 
-Use `BEST=School`
+6-create_local_variables -creates a new local variable
 
-Use `export BEST=School`
+7-create_global_variable -create new global variable
 
-Use `echo $((TRUEKNOWLEDGE+128))`
+8-true_knowledge -prints the result of the addition of 128 with the value stored in the environment
+variable `TRUE KNOWLEDGE`.
 
-Use `echo $((POWER / DIVIDE))`
+9-divide_and_rule -prints the result of `POWER` divided by `divide`
 
-Use `echo $((BREATH**LOVE))`
+10-love_exponent_breath -displays the result of `BREATH` to the power `LOVE`
 
-Use `echo $((2#$BINARY))`
+11-binary_to_decimal -converts a number from base 2 to base 10
 
-Use `echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"`
+12-combinations -prints all possible combinations of two letters except `oo`
 
-Use `printf "%0.2f\n" $NUM`
-
-Use `printf '%x\n' $DECIMAL`
-
-Use `tr 'A-Za-z' 'N-ZA-Mn-za-m'`
-
-Use `paste - - | cut -d$'\t' -f1`
-
-Use `printf '%o\n' $(( $((5#$(echo $STIR | tr 'stir.' '01234'))) + $((5#$(echo $WATER | tr 'water' '01234'))) )) | tr '012334567' 'bestchol'
+13-print_float -prints a number with two decimal places. In variable `NUM`.
