@@ -1,4 +1,6 @@
-# Kill the process naed killmenow
-exec { 'pkill killmenow':
-  path    => '/usr/bin',
+# kill process killmenow
+
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
 }
